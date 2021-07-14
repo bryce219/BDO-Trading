@@ -1,0 +1,2 @@
+12,72.54,Confiscated Smuggled Goods,19488,1
+8,77.98,Closed Western Gate Raw Material,25938,38

@@ -1,0 +1,5 @@
+30,55.7,Practical Astrology,26000,1
+8,50.7,Valencian Carpet,25520,52
+6,35.2,Palm Wine,18000,53
+10,55.2,Valencian Vanadium,28800,54
+4,40.8,Gold-Decorated Dish Set,28400,56

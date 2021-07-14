@@ -1,0 +1,3 @@
+9,40.6,Red Reagent,19080,52
+10,50.5,Bunch of Ivory,26840,53
+4,40.1,Portable Cannon,22680,54

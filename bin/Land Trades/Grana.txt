@@ -1,0 +1,6 @@
+10,87.15,Lemoria Military Uniform,45600,60
+6,89.4,Ash Gray Branch,50100,61
+6,91.68,Valtarra Hearthstone,50400,61
+4,81.34,Acher Training Longbow,45900,62
+3,98.6,Kamasylvia Ancient Pandect,59100,65
+3,72.28,Biographies of a Great Trainer,42600,65

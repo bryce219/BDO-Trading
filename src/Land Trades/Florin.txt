@@ -1,0 +1,5 @@
+16,70.56,Caphras Steamer,21354,1
+15,64.48,Valentine Salve,18708,27
+6,78.03,Dried Cornelian Cherry,21402,31
+5,72.36,Nymph Outfit Set,24714,36
+4,161.1,Florin Scented Candle,63792,47

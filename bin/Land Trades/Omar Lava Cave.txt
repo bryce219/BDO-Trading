@@ -1,0 +1,2 @@
+12,77.98,Burning Stone,31230,46
+4,81.72,Lava Spider's Flame Sac,31974,47

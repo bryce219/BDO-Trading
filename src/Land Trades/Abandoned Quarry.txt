@@ -1,0 +1,2 @@
+12,67.2,Living Rock Chunk,18816,1
+4,71.2,Gray Stone Rat Powder,24780,36

@@ -1,0 +1,7 @@
+12,78.54,Anti-Petrifying Amulet,26058,1
+21,40.1,Chimera’s Black Fragment,8850,12
+4,141.36,Black Leopard Shard,42852,31
+11,72.96,Ominous Black Mercury,21474,31
+8,76.38,Miner's Work Uniform,24084,35
+5,81.0,Keplan Ginger Tea,31380,46
+10,82.95,Ominous Black Ore,31926,47

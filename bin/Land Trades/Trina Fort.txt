@@ -1,0 +1,3 @@
+9,68.55,Stone Rat's Tail,18840,27
+5,72.54,Lizard Helmet,21468,31
+4,83.7,Saunil Steel Weapon,27954,41

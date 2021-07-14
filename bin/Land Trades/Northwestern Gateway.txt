@@ -1,0 +1,2 @@
+12,117.3,Black Marsh Peat,22840,1
+4,55.3,Confiscated Naga Weapon,12210,17

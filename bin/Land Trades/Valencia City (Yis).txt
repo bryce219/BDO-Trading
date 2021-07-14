@@ -1,0 +1,7 @@
+22,56.0,The Valencian Nights Box Set,27840,1
+21,45.7,Fig Vinegar,21200,49
+8,40.7,Valencian Crescent Sword,21080,53
+12,55.8,Sooty Star Dust,32000,54
+5,35.6,Fabulous Exotic China,26800,55
+5,298.5,Desert Star,126000,56
+4,316.0,Valencia Transparency Potion,145000,56

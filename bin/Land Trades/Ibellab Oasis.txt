@@ -1,0 +1,5 @@
+30,40.5,Coconut Oil,18460,51
+5,256.0,Ibelap Gunpowder,101100,52
+8,40.1,Sack of Date Palm,20280,53
+6,45.1,Mercury Ointment,24600,54
+8,271.5,Valencia Rock Salt,110400,54

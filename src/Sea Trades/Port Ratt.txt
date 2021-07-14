@@ -1,0 +1,10 @@
+8,150.0,Oriental Saber,100000,51
+17,34.0,Red Kite,36000,54
+5,210.0,Golden Dragon Ink Slab,132400,55
+6,222.0,Haso Silk,161000,56
+18,33.0,Dim Lotus Lamp,33500,57
+6,229.0,Millennial Wild Ginseng,190600,57
+5,238.0,Pure Gold Censer,226800,58
+5,258.0,Haso Celadon Porcelain,258000,59
+16,36.0,Ratt Lacquer Ware,39000,60
+4,240.0,Oriental Spice,274000,60

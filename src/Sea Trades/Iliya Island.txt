@@ -1,0 +1,3 @@
+18,55.8,Iliya Salt Pot,15418,1
+5,81.8,Lucky Fish Statue,31056,22
+4,137.1,Iliya Coral,57360,42

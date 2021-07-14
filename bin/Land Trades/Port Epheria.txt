@@ -1,0 +1,6 @@
+10,75.45,Epheria Fish Harpoon,15613,1
+10,75.45,Silver Fish Skin,17571,1
+18,60.61,Epheria Fish Oil,11682,28
+10,63.84,Fish Sausage,13194,32
+7,66.72,Epheria Floating Bomb,14400,35
+4,143.2,Pearl Necklace,33306,49

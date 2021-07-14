@@ -1,0 +1,4 @@
+10,83.23,Horsehair Brush,34674,1
+24,78.26,Rhino Stone Hide,28614,42
+7,75.18,Stonetail Hills Garlic Bread,29280,43
+4,166.87,Horse Race Trophy,66372,49

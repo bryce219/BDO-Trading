@@ -1,0 +1,6 @@
+5,77.18,Ancient History: Kamasylvia,36600,56
+5,77.18,Travels to the East,37200,57
+4,86.36,Biographies of Vedir Hypocrites,40500,58
+3,90.6,Wolf Feather Ornament,44100,59
+3,89.6,Red Old Tree Bark,44700,60
+2,86.45,Mushroom Spore,45600,61

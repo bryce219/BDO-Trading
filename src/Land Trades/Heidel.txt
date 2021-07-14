@@ -1,0 +1,10 @@
+22,82.0,Heidel Knights Martial Arts Manual,12489,1
+14,83.7,Cutting-Edge Dwarf Tool Pack,22554,1
+18,78.2,Heidel First Aid Kit,12843,1
+60,43.2,Wishing Kite,7692,1
+16,56.7,Lebyos' Leather Shoes,12156,17
+6,106.47,Madame Pillaf's Ribbon Set,24825,21
+12,99.18,Pure Iron Ore,25641,24
+5,167.31,Dragon Statue of Oyun,45849,29
+4,161.2,Heidel Cocktail Dress,49656,31
+5,107.4,275 Year-Old Porodonio Wine,39387,42

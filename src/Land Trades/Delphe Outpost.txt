@@ -1,0 +1,2 @@
+6,65.78,Big Harpy Egg,19386,28
+4,68.85,Harpy Feather Cape,25320,37

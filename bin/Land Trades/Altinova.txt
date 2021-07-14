@@ -1,0 +1,9 @@
+14,70.84,Horoscope Crystal Ball,26640,1
+54,68.4,Eastern Culture,19476,1
+14,68.55,Blue Silk Fabric,20130,29
+20,77.7,Abandoned Iron Mine Quartz Nugget,35262,31
+8,72.9,Home First Aid Kit,24054,35
+5,160.4,Jeweled Dagger,57216,42
+6,78.4,Barbarian's Oval Shield,30018,44
+5,90.2,Mariam's Sandwich,33264,49
+4,176.5,Shabby Sculpture,69204,51

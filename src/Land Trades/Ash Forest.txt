@@ -1,0 +1,2 @@
+5,101.7,Crimson Lapis Lazuli,57600,63
+5,96.05,Delicate Belt Ornament,52800,63

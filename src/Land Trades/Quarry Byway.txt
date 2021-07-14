@@ -1,0 +1,2 @@
+4,138.75,Person Thinking of Oze,41556,30
+12,83.4,Dark Red Ore Chunk,33240,49

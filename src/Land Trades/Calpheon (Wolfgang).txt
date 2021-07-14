@@ -1,0 +1,3 @@
+18,81.72,Pack of Old Books,20712,1
+5,77.44,Valkyrie Painkiller,26076,38
+4,163.2,Bunch of High-Quality Parchment,61212,45

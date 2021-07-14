@@ -1,0 +1,6 @@
+8,84.63,Magic Binding Oak Branch,31782,1
+36,25.45,Freharau's Dry Mud,5704,1
+14,83.55,Glish Mud Brick,19776,17
+10,90.4,Dried Fogan Hind Leg,18111,17
+5,82.26,Fogan Skin Oil,22539,25
+5,92.04,Freharau's Restorative,25638,27

@@ -1,0 +1,4 @@
+14,68.7,Calpheon Slum Antique,21426,1
+5,143.6,Teviral Scented Candle,37644,27
+12,68.34,Calpheon Slum Aid,18744,27
+4,153.94,Emperor’s Portrait,48204,35

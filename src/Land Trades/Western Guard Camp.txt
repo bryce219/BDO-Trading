@@ -1,0 +1,4 @@
+48,77.98,Imp's Red Ore,13683,1
+14,81.12,Imp Totem Fragment,14685,1
+8,101.0,Tree Spirit Seed,23352,1
+5,68.1,Ogre Excrement,15510,12

@@ -1,0 +1,6 @@
+20,71.76,Trent Carpentry Tool,20694,1
+36,44.32,Spirit of Earth Sculpture,8280,1
+7,73.8,Forest Camouflage,22734,33
+10,65.91,Steel Tree Bark,23994,35
+4,145.55,Amber Accessory,61176,45
+10,83.1,Trent Specialty Wood,33264,49

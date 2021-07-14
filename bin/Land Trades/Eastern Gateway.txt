@@ -1,0 +1,2 @@
+24,33.54,Pile of Scrap Iron,6870,1
+8,55.4,Rebel Supply Package,15510,1

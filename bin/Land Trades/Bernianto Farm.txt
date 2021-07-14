@@ -1,0 +1,2 @@
+6,68.51,Worker's Lunch,18666,27
+4,160.08,Mossy Ancient Statue,58692,43

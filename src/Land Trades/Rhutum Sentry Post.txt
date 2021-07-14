@@ -1,0 +1,2 @@
+6,72.02,Spell Powder Pot,18792,27
+4,76.05,Rhutum Cannonball,24654,36

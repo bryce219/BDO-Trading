@@ -1,0 +1,3 @@
+18,50.7,Moretti Straw Pile,9636,1
+5,56.0,Moretti Flour Sack,13506,19
+4,90.6,Moretti Flax Fabric,27081,30

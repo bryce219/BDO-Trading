@@ -1,0 +1,6 @@
+5,81.4,Ranger Strategic Manual: Basic,36000,56
+5,85.05,Ranger Training Manual: Basic,37500,57
+4,91.0,Medical Kit,38400,58
+3,85.17,Delicate Ornament,39300,59
+3,94.69,Atanis Musical Score,44700,60
+4,90.18,Evil Spirit Rock,45300,61

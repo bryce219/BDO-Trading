@@ -1,0 +1,2 @@
+6,54.0,Poisoned Arrowhead,12072,17
+4,101.5,Bush Spider Poison Sack,34686,37

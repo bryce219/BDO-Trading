@@ -1,0 +1,12 @@
+8,88.38,Drieghan Traditional Fur Hat,36400,42
+8,88.61,Colorful Embroidered Horse Gear Set,37600,42
+8,86.53,Special Aro Basket,38600,42
+8,84.4,Celestial Windchime,38300,42
+8,87.07,Celestial Ocarina,37200,42
+8,80.86,Thuja Pinwheel,34700,42
+6,89.25,Altitude Sickness Cure,39000,44
+6,77.11,Crispy Skewered Lamb,32400,45
+6,75.82,Sherekhan Flag Ornament,33100,47
+6,76.11,Khalk Teeth decorated with Gemstone,32900,49
+4,143.32,Dragonhead Kettle,71600,52
+4,145.25,Yak Carpet,72600,53

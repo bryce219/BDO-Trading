@@ -1,0 +1,5 @@
+15,35.4,Leight Ale,8856,12
+4,141.12,Bunch of Fresh Tulips,37344,27
+8,70.6,Cure-All Ointment,18696,27
+12,75.15,Northern Wheat Plantation Haystack,21360,31
+5,72.9,Bison Hide Backpack,22008,32

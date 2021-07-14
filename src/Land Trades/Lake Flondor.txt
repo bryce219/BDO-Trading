@@ -1,0 +1,6 @@
+5,80.22,Dew of White Wood Forest,43800,61
+5,145.25,Sylviarona,81600,61
+4,81.34,Flondor Jade Clam,44400,62
+4,62.48,Flondor Spring Water,36000,62
+3,69.72,Flondor Crystal Plant,42900,66
+2,96.56,Weenie Looney Pharmacy Book,57900,67

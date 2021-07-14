@@ -1,0 +1,2 @@
+12,35.1,Special Fragrant Rat Poison,7140,1
+8,35.2,Rovant's Self-Protection Amulet,8892,1

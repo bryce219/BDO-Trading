@@ -1,0 +1,2 @@
+6,68.68,Contaminated Herb Bundle,18786,27
+4,74.55,Troll Hunting Poison,24696,36

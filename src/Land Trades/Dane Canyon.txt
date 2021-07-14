@@ -1,0 +1,2 @@
+12,59.84,Reptile Repellant,22032,1
+4,69.36,Wyvern's Gastric Juice,27996,41

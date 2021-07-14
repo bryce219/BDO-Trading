@@ -1,0 +1,2 @@
+6,70.8,Preserved Fish,18798,27
+4,73.8,Waterproofing Elixir,24072,35

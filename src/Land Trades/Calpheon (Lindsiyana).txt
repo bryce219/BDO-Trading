@@ -1,0 +1,6 @@
+14,75.33,Pallet Moving Set,22776,1
+18,75.9,Aurobyl Fabric,18774,27
+10,73.6,Packaged Pig Barbeque,20148,29
+10,83.25,Calpheon Workshop Steel Ingot,28620,42
+4,182.0,Stimi Chandelier,63840,47
+5,88.64,Cannon Mold,34560,51

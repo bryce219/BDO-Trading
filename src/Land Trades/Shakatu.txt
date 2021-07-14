@@ -1,0 +1,7 @@
+22,45.8,Rakshan Telescope,20800,1
+21,35.4,Camel Hide Shoes,16000,51
+8,40.9,Elixir of Life,20160,52
+5,55.5,Giant Fire-Breathing Shield,26000,53
+12,50.4,Rutile Nugget,25200,53
+5,50.8,Shakatu's Surprise Jewel Box,28000,55
+4,45.2,Jewel-Decorated Rifle,30000,56

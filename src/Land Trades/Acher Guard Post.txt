@@ -1,0 +1,2 @@
+6,84.15,Ranger Strategic Manual: Application,47700,62
+4,99.36,Ranger Training Manual: Application,57000,65
