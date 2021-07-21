@@ -8,6 +8,8 @@ public class Node {
 	boolean flag;
 	double weight;
 	
+	int number;
+	
 	public Node() {}
 	
 	public Node(Node node) {
@@ -16,5 +18,7 @@ public class Node {
 		bound = node.bound;
 		flag = node.flag;
 		weight = node.weight;
+		
+		number = node.number;
 	}
 }

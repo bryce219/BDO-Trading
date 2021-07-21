@@ -10,7 +10,6 @@ import org.json.simple.parser.ParseException;
 
 import TradeSolver.Item;
 
-
 public class GetData{
 
 	public static String file = "C:/Users/Bryce219/eclipse-workspace/BDO Trading/src/Distance/RawData.txt";
@@ -77,6 +76,13 @@ public class GetData{
 		
 		test(centers,names);
 		
+		for(int i = 0; i < itemsList.size(); i++) {
+			System.out.println(names.get(i));
+			for(int j = 0; j < itemsList.get(i).size(); j++) {
+				System.out.println(itemsList.get(i).get(j));
+			}
+			System.out.println("");
+		}
 	}
 	
 	public static boolean isTradeManager(JSONObject traders) {
@@ -154,11 +160,11 @@ public class GetData{
 		return null;
 	}
 	
-	public static void OutputToTradesFile() {
+	public static void OutputToTradesFile(ArrayList<String> names, ArrayList<ArrayList<Item>> itemsList) {
 		
 	}
 	
-	public static void OutputToPositionsFile() {
+	public static void OutputToPositionsFile(ArrayList<String> names) {
 		
 	}
 	

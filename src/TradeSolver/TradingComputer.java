@@ -171,11 +171,8 @@ public class TradingComputer{
 		
 		//FORMAT: Name, Value, Weight, Amount
 		
-		items.add(new Item("A",4,12,1));
-		items.add(new Item("B",2,1,1));
-		items.add(new Item("C",2,2,1));
-		items.add(new Item("D",1,1,1));
-		items.add(new Item("E",10,4,1));
+		items.add(new Item("Gold",100,199.83,6));
+		items.add(new Item("Dog Turd",1,1.0,7));
 	}
 	
 	public static void main(String[] args) {
@@ -205,21 +202,20 @@ public class TradingComputer{
 		maxSlots = 20; //20
 		maxWeight = 1200; //1200
 		Region = "Land"; //Land
-		Priority = "Cost"; // Cost || Number
+		Priority = "Number"; // Cost || Number
 		Level = 55; //55 
 
 		//~~~
-		/*
+		
 		customItems();
+		/*
+		String name = "Heidel";
 		
-		//String name = "Velia";
-		
-		//File file = new File("C:/Users/Bryce219/eclipse-workspace/BDO Trading/src/"+Region+" Trades/"+name+".txt");
-		//readFile(file);
-		
+		File file = new File("C:/Users/Bryce219/eclipse-workspace/BDO Trading/src/"+Region+" Trades/"+name+".txt");
+		readFile(file);
+		*/
 		calculator(0);
 		System.exit(1);
-		*/
 		//~~~
 		
 		new File("C:/Users/Bryce219/Desktop/BDO Trading/Solved Trades").mkdir();

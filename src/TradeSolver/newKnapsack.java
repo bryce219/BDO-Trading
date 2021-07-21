@@ -46,7 +46,7 @@ class newKnapsack {
     }
     
 	public static int Bound(Node u, Item arr[]) { 
-	    if (u.weight > maxWeight) 
+	    if (u.weight > maxWeight || u.number > numSlots) 
 	        return 0; 
 	  
 	    int profit_bound = u.profit; 
@@ -135,7 +135,7 @@ class newKnapsack {
 			
 		if(isAdvanced) {
 			arr = formatAtLeastSlots(arr);
-			arr = formatAtMostSlots(arr);
+			//arr = formatAtMostSlots(arr);
 		}
 		
 		Arrays.sort(arr, new sortByRatio()); 
@@ -148,6 +148,9 @@ class newKnapsack {
 	    u.profit = 0;
 	    u.weight = 0;
 	    u.flag = false;
+	    
+	    u.number = 0;
+	    
 	    Q.add(u); 
 	  
         ArrayList<Boolean> currPath = new ArrayList<>();
@@ -162,7 +165,7 @@ class newKnapsack {
             if (u.level >= 0) 
                 currPath.add(u.flag);
             
-	        if(u.weight <= maxWeight && u.profit > maxProfit) {
+	        if(u.weight <= maxWeight && u.profit > maxProfit && u.number <= numSlots) {
 	            maxProfit = u.profit;
 	            bestPath = (ArrayList<Boolean>) currPath.clone();
 	        }
@@ -174,6 +177,7 @@ class newKnapsack {
 	        
 	        v.weight = u.weight + arr[v.level].weight; 
 	        v.profit = u.profit + arr[v.level].value;
+	        v.number = u.number + arr[v.level].amount;
 	        
 	        v.bound = Bound(v, arr); 
 	        if(v.bound > maxProfit) {
@@ -184,6 +188,7 @@ class newKnapsack {
 	        
 	        v.weight = u.weight; 
 	        v.profit = u.profit; 
+	        v.number = u.number;
 	        
 	        v.bound = Bound(v, arr); 
 	        if(v.bound > maxProfit) {
@@ -198,7 +203,7 @@ class newKnapsack {
 	    	finalPath[i] = bestPath.get(i);
 	    
 	    if(isAdvanced) {
-	    	maxWeight = -(numSlots - maxWeight)/(numSlots + 1); //revert changes
+	    	//maxWeight = (maxWeight - numSlots)/(numSlots + 1); //revert changes
         	arr = revertArray(arr);
 	    }
 	    
@@ -211,6 +216,7 @@ class newKnapsack {
         //System.out.println(finalWeight+","+maxWeight);
         
         if((!isAdvanced || numItems(finalPath, arr) == numSlots) && finalWeight <= maxWeight)
+        //if(numItems(finalPath, arr) <= numSlots && finalWeight <= maxWeight)
         	return getItemReturnString(finalPath, arr)+finalProfit(finalPath, arr);
         return "-1";
 	} 
@@ -227,18 +233,18 @@ class newKnapsack {
 	public static Item[] revertArray(Item[] arr) {
 		for(int i = 0; i < size; i++) {
 			arr[i].value -= numItems * (maxValue + 1) * arr[i].amount;
-    		arr[i].weight -= (maxWeight + 1) * arr[i].amount;
+    		//arr[i].weight -= (maxWeight + 1) * arr[i].amount;
 		}
 		return arr;
 	}
 	
-    public static Item[] formatAtMostSlots(Item[] arr) {
+    /*public static Item[] formatAtMostSlots(Item[] arr) {
     	for(int i = 0; i < arr.length; i++) {
     		arr[i].weight += (maxWeight + 1) * arr[i].amount;
     	}
     	maxWeight += numSlots * (maxWeight + 1);
     	return arr;
-    }
+    }*/
     
     public static Item[] formatAtLeastSlots(Item[] arr) {
     	for(int i = 0; i < arr.length; i++)
@@ -273,54 +279,49 @@ class newKnapsack {
     
     public static String maxNumber(int S, double W, ArrayList<Item> items, int finalSlotNum) {
     	numItems = numItems(items);
+    	
+		if(finalSlotNum > 0)
+			S = finalSlotNum;
+    	
+		numSlots = S;
 		maxWeight = W + epsilon;
-		if(finalSlotNum == 0) {
-	    	for(int i = S; i > 0; i--)
-	    		if(getLowestWeights(items, i) <= W) {
-	    			numSlots = i;
-	    			String a = knapsack(items,true);
-	    			return a;
-	    		}
-	    	return "";
-		} else {
-			numSlots = finalSlotNum;
-			return knapsack(items,true);
-		}
+	    for(int i = S; i > 0; i--)
+	    	if(getLowestWeights(items, i) <= W) {
+	    		numSlots = i;
+	    		return knapsack(items,true);
+	    	}
+	    return "-1";
     }
     
     public static String maxCost(int S, double W, ArrayList<Item> items, int finalSlotNum) {
     	numItems = numItems(items);
-    	if(finalSlotNum == 0) {
-	    	String toReturn = "";
-			String max = "0";
-			for(int i = 1; i <= S; i++) {
-				maxWeight = W + epsilon;
-		    	numSlots = i;
-		    	String ks = knapsack(items,false);
-		    	if(ks.split(",").length-1 > S)
-		    		ks = knapsack(items,true);
-				if(Integer.parseInt(ks.split(",")[ks.split(",").length-1]) > Integer.parseInt(max.split(",")[max.split(",").length-1]))
-					max = ks;
-				else
-					break;
-			}
-			
-		    toReturn += max;
-	    	return toReturn;
-    	} else {
-    		maxWeight = W + epsilon;
-    		numSlots = finalSlotNum;
-    		String ks = knapsack(items,false);
-    		if(ks.split(",").length-1 <= S)
-    			return ks;
-    		return knapsack(items,true);
-    	}
+    	
+		if(finalSlotNum > 0)
+			S = finalSlotNum;
+		
+		numSlots = S;
+    	maxWeight = W + epsilon; 	
+		return knapsack(items,false);
     }
     
+    /*
+    public static String maxCost(int S, double W, ArrayList<Item> items, int finalSlotNum) {
+    	numItems = numItems(items);
+    	
+		if(finalSlotNum > 0)
+			S = finalSlotNum;
+    	
+    	maxWeight = W + epsilon; 	
+		String ks = knapsack(items,false);
+		if(ks.split(",").length-1 > S) {
+			numSlots = S;
+			ks = knapsack(items,true);
+		}
+	    return ks;
+    }
+    */
     public static void main(String args[]) {
     	maxCost(20,1121.1,new ArrayList<>(),0);
     } 
 }
-
-
 	
